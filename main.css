@@ -1,0 +1,150 @@
+.container{
+    max-width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.headbar{
+    padding: 6px 4px 12px 0px;
+}
+.bodybar{
+    padding-top: 15px;
+}
+.head{
+    display: inline-block;
+}
+.headlink a{
+    color: #333;
+}
+.headlink a:hover{
+    text-decoration: none;
+    color: #335;
+}
+.rightlink h6{
+    display: inline-block;
+    float: right;
+    margin-top: -3%;
+    font-weight: bold;
+    
+}
+.rightlink a{
+    
+}
+.imageleft{
+    width: 36%;
+    float: left;
+}
+.rightbody{
+    float: right;
+    width: 63%;
+}
+.headright h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.headright h3 a,
+.headright h3 a:hover{
+    color: #333;
+    text-decoration: none;
+}
+.descright{
+    font-size: 15px;
+    color: #828598;
+    margin-top: 25px;
+}
+.bywhom{
+  color: #828598;
+}
+.bywhom a:hover{
+    color: 
+}
+.bodyfoot{
+    width: 57%;
+    position: absolute;
+    bottom: 0;
+}
+.list-inline li{
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+}
+.flip{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.tags{
+    font-size: 12px;
+    
+}
+.tags span{
+    margin-right: 5px;
+}
+.tags li a{
+    color: #828598; 
+    text-decoration: none;
+}
+.tags li a:hover{
+    color: #334;
+    text-decoration: none;
+}
+
+.progress{
+    background: rgba(245, 245, 245, 1); 
+    border: 0px solid rgba(245, 245, 245, 1); 
+    border-radius: 4px; 
+    height: 8px;
+    margin-bottom: 7px;
+}
+.progress-bar-custom{
+    background: #2bde73;
+}
+.details-bar strong{
+    display: block;
+    font-size: 17px;
+    margin-right: 18px;
+}
+.details-bar span{
+    font-size: 13px;
+    color: #828598;
+}
+.rightselection{
+    border-left: 1px solid #d9d9de;
+}
+/*
+.rightselection ul{
+    padding-left: 25px;
+}
+*/
+.rightselection ul li{
+    margin-bottom: 3px;
+}
+.right-list{
+    list-style: none;
+    padding-left: 0;
+}
+.right-list li{
+    border-left: 3px solid transparent;
+    line-height: 25px;
+    margin-left: -1px;
+    padding-left: 20px;
+}
+.right-list li a{
+    color: #333;
+}
+.right-list > li > a:hover,
+.right-list > li > a:focus{
+    color: #2bde73;
+}
+.right-list > li.active{
+    border-left-color: #2bde73;
+}
+.right-list > li.active > a,
+.right-list > li.active > a:hover,
+.right-list > li.active > a:focus{
+    color: #2bde73;
+}
+
